@@ -122,6 +122,17 @@ setup(
 )
 ```
 
+### Pre-commit hooks
+
+*m2r2* is also available as a pre-commit hook. To use it, you can add such an entry in your .pre-commit-config.yaml:
+```yml
+repos:
+  - repo: https://github.com/CrossNox/m2r2
+    hooks:
+      - id: m2r2
+``````
+
+
 ### Sphinx Integration
 
 In your conf.py, add the following lines.

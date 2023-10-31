@@ -1,0 +1,7 @@
+-   id: m2r2
+    name: m2r2
+    description: '`m2r2` is a markdown to reStructuredText converter.'
+    entry: m2r2
+    language: python
+    types: [python]
+    require_serial: true
